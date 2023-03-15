@@ -1,8 +1,14 @@
 @extends('layout.layout')
 @section('content')
-<h1>Welcome to Takyiwaa's World</h1>
+<h1>
+    <div class="p-3">
 
-<div class="p-4">
+    </div>
+    Welcome to Takyiwaa's Cuisine
+</h1>
+
+<h1>
+<div class="p-3">
 <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="register">
@@ -12,6 +18,7 @@
   </div>
 </nav>
 </div>
+</h1>
 
 @endsection
 
@@ -33,8 +40,6 @@
     <button type="button" class="btn btn-success">Supper</button>
 
 </div>
-
-<button type="button" class="btn btn-link">Link</button>
 
 <link rel="stylesheet" href="{{ asset('bootstrap/bootstrap.min.css') }}">
 @endsection
